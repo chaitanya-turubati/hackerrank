@@ -8,8 +8,8 @@ public class RunningMedianMain {
 
   private Integer median = null;
 
-  private TreeMap<Integer, Integer> greaterElements = new TreeMap<Integer, Integer>();
-  private TreeMap<Integer, Integer> lesserElements = new TreeMap<Integer, Integer>();
+  private TreeMap<Integer, Integer> greaterElements = new TreeMap<>();
+  private TreeMap<Integer, Integer> lesserElements = new TreeMap<>();
 
   private int greaterSize = 0;
   private int lesserSize = 0;
@@ -89,11 +89,6 @@ public class RunningMedianMain {
     }
   }
 
-  private void printStuff() {
-//    System.out.print(sortedList);
-    System.out.println(getMedian());
-  }
-
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 
@@ -101,7 +96,7 @@ public class RunningMedianMain {
     int T = scanner.nextInt();
     for (int t = 0; t < T; t++) {
       main.addElement(scanner.nextInt());
-      main.printStuff();
+      System.out.println(main.getMedian());
     }
   }
 }
