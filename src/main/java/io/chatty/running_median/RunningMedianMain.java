@@ -1,4 +1,4 @@
-package io.tschaitanya.running_median;
+package io.chatty.running_median;
 
 import java.util.Map.Entry;
 import java.util.Scanner;

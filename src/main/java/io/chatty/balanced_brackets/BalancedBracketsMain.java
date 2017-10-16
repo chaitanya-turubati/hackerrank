@@ -1,4 +1,4 @@
-package io.tschaitanya.balanced_brackets;
+package io.chatty.balanced_brackets;
 
 import java.util.ArrayList;
 import java.util.List;

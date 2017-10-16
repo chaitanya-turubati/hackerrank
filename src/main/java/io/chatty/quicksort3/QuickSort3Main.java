@@ -1,6 +1,6 @@
 // Copyright 2017 Lytcone
 
-package io.tschaitanya.quicksort3;
+package io.chatty.quicksort3;
 
 import java.util.Scanner;
 

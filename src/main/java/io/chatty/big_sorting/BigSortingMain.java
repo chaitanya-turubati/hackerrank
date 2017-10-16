@@ -1,6 +1,6 @@
 // Copyright 2017 Lytcone
 
-package io.tschaitanya.big_sorting;
+package io.chatty.big_sorting;
 
 import java.util.ArrayList;
 import java.util.Collections;

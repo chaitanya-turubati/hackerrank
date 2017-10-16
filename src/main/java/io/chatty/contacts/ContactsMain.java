@@ -1,4 +1,4 @@
-package io.tschaitanya.contacts;
+package io.chatty.contacts;
 
 import java.util.Map;
 import java.util.Scanner;
